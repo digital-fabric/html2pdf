@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    h2p (0.1)
+      modulation (~> 0.21)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    modulation (0.21)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  h2p!
+
+BUNDLED WITH
+   1.17.2
