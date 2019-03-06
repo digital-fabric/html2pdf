@@ -16,7 +16,6 @@ module H2P
   def self.convert(html)
     html_path = tmp_path(:html)
     pdf_path = tmp_path(:pdf)
-    p [html_path, pdf_path]
     File.open(html_path, 'w+') { |f| f << html }
     system('wkhtmltopdf', '-q', html_path, pdf_path)
     IO.read(pdf_path)
